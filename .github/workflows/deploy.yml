@@ -2,7 +2,7 @@ name: Deploy on AWS S3
 on: 
   schedule:
     # once a day
-    - cron: '0 0 * * *'
+    - cron: '12 12 * * *'
   push:
     branches:
       - main
