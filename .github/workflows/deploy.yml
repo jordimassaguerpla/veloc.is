@@ -1,6 +1,5 @@
 name: Deploy on AWS S3
 on: 
-  workflow_dispatch:
   schedule:
     # once a day
     - cron: '30 14 * * *'
